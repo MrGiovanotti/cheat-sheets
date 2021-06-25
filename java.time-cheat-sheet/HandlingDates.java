@@ -54,6 +54,12 @@ public class HandlingDates {
 		// Comparing dates (We use isBefore, isAfter, isEquals)
 		boolean isBefore = LocalDate.now().isBefore(LocalDate.parse("2021-05-26"));
 
+		// Modifying a date
+		LocalDate date1 = LocalDate.of(2015, 04, 17);
+		LocalDate modifiedDate = date1.withYear(2021);
+
+
+
 	}
 
 }

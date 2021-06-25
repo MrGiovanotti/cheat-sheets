@@ -33,9 +33,10 @@ public class HandlingTime {
 		// Comparing time (We use isBefore, isAfter, isEquals)
 		boolean isBefore = LocalTime.now().isBefore(someTime);
 
+		// Getting max and min time of day
+		LocalTime maxTimeOfDay = LocalTime.MAX;
+		LocalTime minTimeOfDay = LocalTime.MIN;
 
-
-		System.out.println(isBefore);
 	}
 
 }
