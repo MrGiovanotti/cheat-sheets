@@ -1,0 +1,23 @@
+# Starting zookeeper
+./bin/zookeeper-server-start.sh ./config/zookeeper.properties
+
+# Starting Apache Kafka
+./bin/kafka-server-start.sh ./config/server.properties
+
+# Creating a topic
+./bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic mrgiovanotti-topic
+
+# Listing topics
+./bin/kafka-topics.sh --list --zookeeper localhost:2181
+
+# Creating a producer
+./bin/kafka-console-producer.sh --broker-list localhost:9092 --topic mrgiovanotti-topic
+
+# Creating a consumer
+./bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic mrgiovanotti-topic --from-beginning
+
+# Stopping Apache Kafka
+./bin/kafka-server-stop.sh
+
+# Stopping Zookeeper
+./bin/zookeeper-server-stop.sh
