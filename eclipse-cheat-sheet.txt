@@ -1,0 +1,20 @@
+Copiar línea
+Option + Cmd + abajo
+
+Borrar línea
+Shift + Cmd + D
+
+Go to matching bracket
+Shift + Cmd + P
+
+Mover líneas
+Option + arriba/abajo
+
+Buscar palabra en workspace
+Option + Cmd + G
+
+Buscar recursos
+Cmd + Shift + R
+
+Mostrar todos los métodos de la clase
+Cmd + O

@@ -1,0 +1,32 @@
+Mover línea
+Option + flechas
+
+Quitar tabs
+Shift + Tab
+
+Comentar:
+Cmd + /
+
+Comentar selección
+Option + Shift + A
+
+Borrar línea
+Cmd + Shift + K
+
+Seleccionar todas las ocurrencias
+Cmd + Shift + L
+
+Copiar línea
+Option + Shift + arriba/abajo
+
+Multicursor
+Option + Cmd + arriba/abajo
+
+Seleccionar palabra desde su inicio o final
+Shift + Option + derecha/izquierda
+
+Multicursor con clic
+Option + clic
+
+Seleccionar siguiente ocurrencia:
+Cmd + D
